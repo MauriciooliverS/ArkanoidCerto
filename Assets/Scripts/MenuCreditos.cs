@@ -30,4 +30,8 @@ public class MenuCreditos : MonoBehaviour
         SceneManager.LoadScene("fase1");
          Time.timeScale = 1;
     }
+    public void Quit()
+{
+    Application.Quit();
+}
 }
