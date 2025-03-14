@@ -40,6 +40,8 @@ public class Plataforma : MonoBehaviour
             rB2D.transform.Translate(-Speed *Time.deltaTime, 0, 0);
         }
 
+
+
        
     }
 
